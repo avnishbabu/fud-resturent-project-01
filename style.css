@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+    color: black;
+}
+
+.contenar{
+   max-width: 800px;
+   background-color: white;
+   margin: 20px auto;
+   padding: 20px;
+   box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+   font-size: 60px;
+   margin-bottom: 10px;
+}
+
+header h1:hover{
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: red;
+ }
+
+header img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.list-item
+.Steps{
+    margin-top: 20px;
+}
+
+.list-item h2{
+    font-size: 2.2rem;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+.Steps h2{
+    font-size: 2.2rem;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+.list-item ul,
+.Steps ol{
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.list-item ul,
+.Steps ol :hover{
+    list-style-type: none;
+    padding: 0px;
+    color: rgb(14, 14, 14);
+    font-size: 1.7rem;
+    transition: 0.8s;
+
+}
+
+.Steps li ,
+.list-item li{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    list-style:upper-alpha;
+    margin-left: 35px;
+}
+
+.Steps ol{
+    counter-reset: step-counter;
+}
+
+/* .Steps li ,
+.list-item li:hover{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    list-style:upper-alpha;
+    margin-left: 35px;
+    color: red;
+    transition: 0.5s;
+} */
